@@ -81,6 +81,28 @@ header nav ul li a:hover {
     background-size: cover;
 }
 
+#services {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../imgs/img13.jpg);
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../imgs/img14.jpg);
+}
+
 
 body:not(#home) #hero {
     height: 50vh;
@@ -114,25 +136,30 @@ body:not(#home) #hero h1 {
     border-radius: 5px;
 }
 
-.green {
+a.green {
     background-color: #178a27;
 }
 
-.red {
+a.red {
     background-color: #852406;
 }
 
-.green-text {
+a.white {
+    background-color: #852406;
+}
+
+h2.green-text {
     color: #178a27;
 }
 
-.blue-text {
+h2.blue-text {
     color: #1686c1;
 }
 
 article p {
     font-weight: lighter;
 }
+
 
 .halves p {
     font-size: 32px;
@@ -179,6 +206,10 @@ footer hr {
 
 .halves article {
     width: 48%;
+}
+
+.full article {
+    width: 98%;
 }
 
 .quarters article {
